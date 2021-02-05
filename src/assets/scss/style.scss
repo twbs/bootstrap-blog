@@ -115,21 +115,21 @@ tbody tr:nth-child(odd) th {
   word-break: break-word;
 }
 
-// Related posts
-.related {
+// Recent posts
+.recent {
   padding-top: 2rem;
   padding-bottom: 2rem;
   border-top: 1px solid #eee;
 }
-.related-posts li small {
+.recent-posts li small {
   font-size: 75%;
   color: #767676;
 }
-.related-posts li a:hover {
+.recent-posts li a:hover {
   color: #268bd2;
   text-decoration: none;
 }
-.related-posts li a:hover small {
+.recent-posts li a:hover small {
   color: inherit;
 }
 

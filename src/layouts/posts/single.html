@@ -11,11 +11,11 @@
     {{ .Content }}
   </div>
 
-  <div class="related">
+  <div class="recent">
     <h2>Recent posts</h2>
-    <ul class="related-posts list-unstyled">
-      {{ $related := (where .Site.RegularPages "Type" "posts") | first 3 -}}
-      {{- range $related -}}
+    <ul class="recent-posts list-unstyled">
+      {{ $recent_posts := (where .Site.RegularPages "Type" "posts") | first 3 -}}
+      {{- range $recent_posts -}}
       <li>
         <h4>
           <a href="{{ .RelPermalink  }}">
